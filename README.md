@@ -181,7 +181,7 @@ const mainTemplate = prepareTemplate(
   {
     // A sub-template is a Renderer:
     A: (model, handlers, renderers) => {
-      evaluateTemplate(templateA, model, handlers, renderers);
+      return evaluateTemplate(templateA, model, handlers, renderers);
     }
   });
 ```
